@@ -27,7 +27,7 @@ export function MagneticButton({
         variant === "primary" &&
         "bg-gradient-to-r from-accent-amber to-accent-gold text-midnight hover:shadow-lg hover:shadow-accent-amber/25 hover:scale-105",
         variant === "secondary" &&
-        "bg-white/80 shadow-sm border border-glass-border text-foreground hover:border-accent-amber/50 hover:bg-white hover:scale-105",
+        "bg-midnight-light/80 shadow-sm border border-glass-border text-foreground hover:border-accent-amber/50 hover:bg-midnight-light hover:scale-105",
         className
     );
 

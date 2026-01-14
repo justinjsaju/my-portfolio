@@ -117,7 +117,7 @@ function ProjectCard({ project, index }: { project: typeof projects[0]; index: n
                     {project.techStack.map((tech) => (
                         <span
                             key={tech}
-                            className="px-2 py-1 text-xs rounded-md bg-white/60 border border-glass-border text-foreground-muted"
+                            className="px-2 py-1 text-xs rounded-md bg-midnight-light/60 border border-glass-border text-foreground-muted"
                         >
                             {tech}
                         </span>
@@ -167,7 +167,7 @@ export function ProjectsSection() {
                         { value: "5+", label: "Technologies" },
                         { value: "100%", label: "Hands-on" },
                     ].map((stat) => (
-                        <div key={stat.label} className="text-center p-4 rounded-xl bg-white/80 shadow-sm border border-glass-border">
+                        <div key={stat.label} className="text-center p-4 rounded-xl bg-midnight-light/80 shadow-sm border border-glass-border">
                             <p className="text-2xl font-bold text-gradient">{stat.value}</p>
                             <p className="text-xs text-foreground-muted uppercase tracking-wider">{stat.label}</p>
                         </div>
@@ -193,7 +193,7 @@ export function ProjectsSection() {
                         href="https://github.com/justin-saju"
                         target="_blank"
                         rel="noopener noreferrer"
-                        className="inline-flex items-center gap-2 px-6 py-3 rounded-full bg-white/80 shadow-sm border border-glass-border text-foreground-muted hover:text-accent-amber hover:border-accent-amber/50 transition-all"
+                        className="inline-flex items-center gap-2 px-6 py-3 rounded-full bg-midnight-light/80 shadow-sm border border-glass-border text-foreground-muted hover:text-accent-amber hover:border-accent-amber/50 transition-all"
                     >
                         <Github className="w-5 h-5" />
                         View More on GitHub

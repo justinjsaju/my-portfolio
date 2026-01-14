@@ -2,7 +2,7 @@
 
 /*
  * ============================================================================
- * 🎨 DESIGN SYSTEM - CSS CUSTOM PROPERTIES
+ * 🎨 DESIGN SYSTEM - CSS CUSTOM PROPERTIES (DARK THEME)
  * ============================================================================
  * This defines the color palette and design tokens for the portfolio.
  * You can customize colors here to match your personal brand.
@@ -10,26 +10,26 @@
  */
 
 @theme {
-  /* Primary Colors - Warm Academic Palette */
-  --color-background: #faf9f7;
-  --color-foreground: #1a1a2e;
-  --color-foreground-muted: #4a4a5a;
-  --color-foreground-dim: #8a8a9a;
+  /* Primary Colors - Dark Theme Palette */
+  --color-background: #0f0f1a;
+  --color-foreground: #f5f5f7;
+  --color-foreground-muted: #a0a0b0;
+  --color-foreground-dim: #6a6a7a;
 
   /* Accent Colors */
-  --color-accent-amber: #d97706;
-  --color-accent-gold: #b45309;
-  --color-accent-teal: #0d9488;
-  --color-accent-rose: #e11d48;
-  --color-accent-green: #059669;
+  --color-accent-amber: #f59e0b;
+  --color-accent-gold: #fbbf24;
+  --color-accent-teal: #14b8a6;
+  --color-accent-rose: #fb7185;
+  --color-accent-green: #10b981;
 
   /* Neutral Colors */
-  --color-midnight: #1a1a2e;
-  --color-midnight-light: #2d2d44;
-  --color-warm-stone: #d4c4b0;
+  --color-midnight: #0a0a14;
+  --color-midnight-light: #1a1a2e;
+  --color-warm-stone: #2d2d44;
 
   /* Glass Effect */
-  --color-glass-border: rgba(0, 0, 0, 0.08);
+  --color-glass-border: rgba(255, 255, 255, 0.1);
 }
 
 /* Base Styles */
@@ -87,56 +87,56 @@ body {
 
 /* Gradient Text */
 .text-gradient {
-  background: linear-gradient(135deg, #d97706 0%, #b45309 50%, #92400e 100%);
+  background: linear-gradient(135deg, #f59e0b 0%, #fbbf24 50%, #f59e0b 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
 }
 
-/* Glass Effect */
+/* Glass Effect - Dark Theme */
 .glass {
-  background: rgba(255, 255, 255, 0.85);
+  background: rgba(20, 20, 35, 0.85);
   backdrop-filter: blur(12px);
   -webkit-backdrop-filter: blur(12px);
   border: 1px solid var(--color-glass-border);
 }
 
-/* Background Patterns */
+/* Background Patterns - Dark Theme */
 .bg-grid {
   background-image: 
-    linear-gradient(rgba(0, 0, 0, 0.03) 1px, transparent 1px),
-    linear-gradient(90deg, rgba(0, 0, 0, 0.03) 1px, transparent 1px);
+    linear-gradient(rgba(255, 255, 255, 0.03) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(255, 255, 255, 0.03) 1px, transparent 1px);
   background-size: 40px 40px;
 }
 
 .bg-dots {
-  background-image: radial-gradient(rgba(0, 0, 0, 0.08) 1px, transparent 1px);
+  background-image: radial-gradient(rgba(255, 255, 255, 0.08) 1px, transparent 1px);
   background-size: 20px 20px;
 }
 
 /* Selection */
 ::selection {
-  background-color: rgba(217, 119, 6, 0.2);
+  background-color: rgba(245, 158, 11, 0.3);
   color: var(--color-foreground);
 }
 
-/* Scrollbar */
+/* Scrollbar - Dark Theme */
 ::-webkit-scrollbar {
   width: 8px;
   height: 8px;
 }
 
 ::-webkit-scrollbar-track {
-  background: transparent;
+  background: rgba(255, 255, 255, 0.05);
 }
 
 ::-webkit-scrollbar-thumb {
-  background: rgba(0, 0, 0, 0.15);
+  background: rgba(255, 255, 255, 0.2);
   border-radius: 4px;
 }
 
 ::-webkit-scrollbar-thumb:hover {
-  background: rgba(0, 0, 0, 0.25);
+  background: rgba(255, 255, 255, 0.35);
 }
 
 /* Focus Styles */
@@ -149,3 +149,4 @@ body {
 a, button {
   transition: all 0.2s ease;
 }
+

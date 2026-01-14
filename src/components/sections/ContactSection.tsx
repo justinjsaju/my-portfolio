@@ -137,7 +137,7 @@ export function ContactSection() {
                                 <Building className="w-5 h-5 text-accent-teal" />
                                 University
                             </h3>
-                            <div className="p-4 rounded-xl bg-white/60 border border-glass-border">
+                            <div className="p-4 rounded-xl bg-midnight-light/60 border border-glass-border">
                                 <h4 className="text-foreground font-semibold text-lg mb-2">
                                     {universityInfo.name}
                                 </h4>

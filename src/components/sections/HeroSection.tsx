@@ -68,7 +68,7 @@ export function HeroSection() {
                     whileInView={{ opacity: 1, y: 0 }}
                     transition={{ duration: 0.5 }}
                     viewport={{ once: false, amount: 0.3 }}
-                    className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-white/80 border border-glass-border shadow-sm mb-8"
+                    className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-midnight-light/80 border border-glass-border shadow-sm mb-8"
                 >
                     <span className="relative flex h-2 w-2">
                         <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-accent-amber opacity-75"></span>
@@ -145,7 +145,7 @@ export function HeroSection() {
                     {profileData.stats.map((stat) => (
                         <div
                             key={stat.label}
-                            className="flex items-center gap-2 px-4 py-2 rounded-full bg-white/80 border border-glass-border shadow-sm"
+                            className="flex items-center gap-2 px-4 py-2 rounded-full bg-midnight-light/80 border border-glass-border shadow-sm"
                         >
                             <stat.icon className={`w-4 h-4 ${stat.color}`} />
                             <span className="text-sm text-foreground-muted">{stat.label}</span>
@@ -163,7 +163,7 @@ export function HeroSection() {
                 >
                     <a
                         href={`mailto:${profileData.contact.email}`}
-                        className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-white/80 border border-glass-border shadow-sm text-sm text-foreground-muted hover:text-accent-amber hover:border-accent-amber/50 transition-all"
+                        className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-midnight-light/80 border border-glass-border shadow-sm text-sm text-foreground-muted hover:text-accent-amber hover:border-accent-amber/50 transition-all"
                     >
                         <Mail className="w-4 h-4" />
                         {profileData.contact.email}
@@ -172,7 +172,7 @@ export function HeroSection() {
                         href={`https://${profileData.contact.github}`}
                         target="_blank"
                         rel="noopener noreferrer"
-                        className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-white/80 border border-glass-border shadow-sm text-sm text-foreground-muted hover:text-accent-amber hover:border-accent-amber/50 transition-all"
+                        className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-midnight-light/80 border border-glass-border shadow-sm text-sm text-foreground-muted hover:text-accent-amber hover:border-accent-amber/50 transition-all"
                     >
                         <Github className="w-4 h-4" />
                         GitHub
@@ -181,7 +181,7 @@ export function HeroSection() {
                         href={`https://${profileData.contact.linkedin}`}
                         target="_blank"
                         rel="noopener noreferrer"
-                        className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-white/80 border border-glass-border shadow-sm text-sm text-foreground-muted hover:text-accent-amber hover:border-accent-amber/50 transition-all"
+                        className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-midnight-light/80 border border-glass-border shadow-sm text-sm text-foreground-muted hover:text-accent-amber hover:border-accent-amber/50 transition-all"
                     >
                         <Linkedin className="w-4 h-4" />
                         LinkedIn

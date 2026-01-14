@@ -93,7 +93,7 @@ export function Navbar() {
                 className={cn(
                     "fixed top-0 left-0 right-0 z-50 transition-all duration-300",
                     scrolled
-                        ? "bg-white/90 backdrop-blur-xl border-b border-glass-border shadow-sm"
+                        ? "bg-midnight-light/90 backdrop-blur-xl border-b border-glass-border shadow-sm"
                         : "bg-transparent"
                 )}
             >
@@ -170,7 +170,7 @@ export function Navbar() {
                         transition={{ duration: 0.2 }}
                         className="fixed inset-0 z-40 md:hidden"
                     >
-                        <div className="absolute inset-0 bg-white/98 backdrop-blur-xl" />
+                        <div className="absolute inset-0 bg-midnight/98 backdrop-blur-xl" />
                         <nav className="relative pt-24 px-6">
                             <div className="flex flex-col gap-4">
                                 {navLinks.map((link, index) => (

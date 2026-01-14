@@ -161,7 +161,7 @@ export function AboutSection() {
                                         whileInView={{ opacity: 1, y: 0 }}
                                         transition={{ duration: 0.3, delay: index * 0.1 }}
                                         viewport={{ once: false }}
-                                        className="p-4 rounded-xl bg-white/60 border border-glass-border hover:border-accent-amber/30 transition-colors group"
+                                        className="p-4 rounded-xl bg-midnight-light/60 border border-glass-border hover:border-accent-amber/30 transition-colors group"
                                     >
                                         <div className="p-2 rounded-lg bg-accent-amber/10 w-fit mb-3 group-hover:scale-110 transition-transform">
                                             <interest.icon className="w-5 h-5 text-accent-amber" />
@@ -183,7 +183,7 @@ export function AboutSection() {
                                 {softSkills.map((skill) => (
                                     <span
                                         key={skill}
-                                        className="px-3 py-1.5 text-sm rounded-full bg-white/60 border border-glass-border text-foreground-muted"
+                                        className="px-3 py-1.5 text-sm rounded-full bg-midnight-light/60 border border-glass-border text-foreground-muted"
                                     >
                                         {skill}
                                     </span>
@@ -214,7 +214,7 @@ export function AboutSection() {
                                         <motion.span
                                             key={skill}
                                             whileHover={{ y: -2, scale: 1.05 }}
-                                            className="px-3 py-1.5 rounded-full text-xs bg-white/80 shadow-sm border border-glass-border text-foreground-muted hover:border-accent-amber/50 hover:text-foreground transition-all cursor-default"
+                                            className="px-3 py-1.5 rounded-full text-xs bg-midnight-light/80 shadow-sm border border-glass-border text-foreground-muted hover:border-accent-amber/50 hover:text-foreground transition-all cursor-default"
                                         >
                                             {skill}
                                         </motion.span>
