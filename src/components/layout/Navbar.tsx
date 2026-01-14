@@ -18,10 +18,10 @@ import { MagneticButton } from "@/components/ui/MagneticButton";
  */
 
 // Your initials for the logo - EDIT THIS VALUE
-const logoInitials = "AK";
+const logoInitials = "JS";
 
 // Your email for contact button - EDIT THIS VALUE
-const contactEmail = "aarav.krishnan.ece@gmail.com";
+const contactEmail = "justin.saju.ece@gmail.com";
 
 // Navigation links - matches section IDs in page.tsx
 const navLinks = [

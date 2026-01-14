@@ -19,25 +19,25 @@ import { GlassmorphismCard } from "@/components/ui/GlassmorphismCard";
 // Your certifications - EDIT THESE VALUES
 const certifications = [
     {
-        title: "Embedded Systems with Arduino",
+        title: "Embedded Systems Essentials",
         platform: "Coursera",
         year: "2024",
         color: "text-accent-amber bg-accent-amber/10",
     },
     {
-        title: "Introduction to IoT",
+        title: "Digital Circuits",
         platform: "NPTEL",
         year: "2024",
         color: "text-accent-teal bg-accent-teal/10",
     },
     {
-        title: "Python for Engineers",
+        title: "Python Basics for Engineers",
         platform: "Udemy",
         year: "2024",
         color: "text-accent-gold bg-accent-gold/10",
     },
     {
-        title: "MATLAB Onramp",
+        title: "MATLAB Fundamentals",
         platform: "MathWorks",
         year: "2023",
         color: "text-accent-rose bg-accent-rose/10",

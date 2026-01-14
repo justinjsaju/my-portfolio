@@ -34,27 +34,27 @@ const education = [
 
 // Your areas of interest - EDIT THESE VALUES
 const areasOfInterest = [
-    { icon: Cpu, title: "Embedded Systems", description: "Microcontrollers and firmware development" },
-    { icon: Wifi, title: "Internet of Things", description: "Connected devices and smart systems" },
-    { icon: Radio, title: "Edge AI", description: "AI inference on embedded devices" },
-    { icon: Wrench, title: "Robotics", description: "Hardware-software integration" },
+    { icon: Cpu, title: "Embedded Systems & Firmware", description: "Microcontrollers and firmware development" },
+    { icon: Radio, title: "Communication Systems", description: "Signal processing and protocols" },
+    { icon: Wrench, title: "Robotics & Automation", description: "Hardware-software integration" },
+    { icon: Wifi, title: "PCB Design", description: "Hardware debugging and design" },
 ];
 
 // Your technical skills - EDIT THESE VALUES
 const technicalSkills = {
-    programming: ["C", "C++", "Python", "Embedded C"],
-    hardware: ["Arduino", "ESP32", "Raspberry Pi", "Sensors"],
-    tools: ["MATLAB", "Proteus", "VS Code", "Git"],
-    concepts: ["Digital Electronics", "Signals & Systems", "IoT Protocols"],
+    programming: ["C", "C++ (Basics)", "Python", "Embedded C"],
+    hardware: ["Arduino", "ESP32", "STM32", "Raspberry Pi"],
+    tools: ["MATLAB", "Proteus", "Multisim", "LTspice", "VS Code", "Git"],
+    concepts: ["Digital Electronics", "Analog Electronics", "Signals & Systems", "Control Systems"],
 };
 
 // Your soft skills - EDIT THESE VALUES
 const softSkills = [
-    "Problem Solving",
-    "Team Collaboration",
-    "Technical Documentation",
-    "Time Management",
-    "Willingness to Learn",
+    "Analytical Thinking",
+    "Teamwork & Collaboration",
+    "Technical Writing",
+    "Adaptability",
+    "Strong Learning Mindset",
 ];
 
 export function AboutSection() {
@@ -97,15 +97,15 @@ export function AboutSection() {
                             </h3>
                             <div className="space-y-4 text-foreground-muted body-md">
                                 <p>
-                                    I&apos;m <span className="text-accent-amber font-semibold">Aarav Krishnan</span>,
+                                    I&apos;m <span className="text-accent-amber font-semibold">Justin Saju</span>,
                                     a passionate Electronics and Communication Engineering student at
                                     <span className="text-foreground"> SRM Institute of Science and Technology</span>, Chennai.
                                 </p>
                                 <p>
-                                    I enjoy converting theoretical concepts into real-world applications through hands-on projects.
-                                    Currently focused on <span className="text-accent-teal">microcontrollers</span>,{" "}
-                                    <span className="text-accent-gold">edge AI</span>, and{" "}
-                                    <span className="text-accent-amber">sensor-based systems</span>.
+                                    I enjoy working at the intersection of electronics and software, especially in microcontroller-based systems and real-time applications.
+                                    Currently exploring <span className="text-accent-teal">PCB design</span>,{" "}
+                                    <span className="text-accent-gold">real-time communication protocols</span>, and{" "}
+                                    <span className="text-accent-amber">embedded Linux</span>.
                                 </p>
                             </div>
                         </GlassmorphismCard>

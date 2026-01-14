@@ -10,25 +10,25 @@ The AI will read this file and automatically update your portfolio code!
 --------------------------------------------------------------------------------
 
 [SECTION: PERSONAL_INFO]
-Name: Aarav Krishnan
+Name: Justin Saju
 Tagline: 3rd Year B.Tech | ECE @ SRMIST
 Degree: B.Tech – Electronics and Communication Engineering (Core)
 University: SRM Institute of Science and Technology
 Location: Chennai, India
-Email: aarav.krishnan.ece@gmail.com
-Phone: +91 98765 43210
+Email: justin.saju.ece@gmail.com
+Phone: +91 00000 00000
 
 [SECTION: SOCIAL_LINKS]
-GitHub: github.com/aarav-krishnan
-LinkedIn: linkedin.com/in/aarav-krishnan
-Portfolio_URL: aaravkrishnan.tech
+GitHub: github.com/justin-saju
+LinkedIn: linkedin.com/in/justin-saju
+Portfolio_URL: justinsaju.tech
 
 [SECTION: ABOUT_ME]
 Bio_Highlight_1: Embedded Systems
-Bio_Highlight_2: IoT Development
-Bio_Highlight_3: Edge AI
-Career_Objective: To secure an internship or entry-level role where I can apply my ECE fundamentals and embedded systems knowledge to develop reliable and scalable engineering solutions.
-About_Description: I am a passionate Electronics and Communication Engineering student with strong interests in embedded systems, IoT, and applied AI. I enjoy converting theoretical concepts into real-world applications through hands-on projects. Currently focused on microcontrollers, edge AI, and sensor-based systems.
+Bio_Highlight_2: Signal Processing
+Bio_Highlight_3: PCB Design
+Career_Objective: To obtain an internship or entry-level position in electronics or embedded systems where I can apply my ECE fundamentals, gain hands-on industry exposure, and contribute to reliable engineering solutions.
+About_Description: I am an Electronics and Communication Engineering student with a keen interest in embedded systems, signal processing, and hardware-oriented problem solving. I enjoy working at the intersection of electronics and software, especially in microcontroller-based systems and real-time applications. Currently exploring PCB design, real-time communication protocols, and embedded Linux, with aspirations to work in core engineering, product development, or R&D roles.
 
 [SECTION: EDUCATION]
 Degree: B.Tech – Electronics and Communication Engineering (Core)
@@ -37,48 +37,49 @@ Year: 3rd Year
 School_12th: Your School Name, 2023
 
 [SECTION: SKILLS]
-Programming: C, C++, Python (NumPy, OpenCV basics), Embedded C
-Electronics_Core: Digital Electronics, Analog Circuits, Signals & Systems, Microprocessors & Microcontrollers, Basic VLSI concepts
-Hardware_Platforms: Arduino (Uno, Nano), ESP32 / ESP8266, Raspberry Pi (Basics), Sensors (DHT11, PIR, Ultrasonic, IR)
-Tools_Software: MATLAB (Simulation), Proteus, LTspice, VS Code, Git & GitHub
-Soft_Skills: Problem Solving, Team Collaboration, Technical Documentation, Time Management, Willingness to Learn
+Programming: C, C++ (Basics), Python (Scripting, basics of data handling), Embedded C
+Electronics_Core: Digital Electronics, Analog Electronics, Signals & Systems, Communication Systems, Microprocessors & Microcontrollers, Control Systems (Basics)
+Hardware_Platforms: Arduino (Uno, Mega), ESP32, STM32 (Beginner), Raspberry Pi (Basics), Sensors (Temperature, Gas, Ultrasonic, IR, LDR)
+Tools_Software: MATLAB, Proteus, Multisim, LTspice, VS Code, Git & GitHub
+Soft_Skills: Analytical Thinking, Teamwork & Collaboration, Technical Writing, Adaptability, Strong Learning Mindset
 
 [SECTION: INTERESTS]
-Interest_1: Embedded Systems & Firmware
-Interest_2: Internet of Things (IoT)
-Interest_3: Edge AI & Computer Vision
-Interest_4: Robotics & Automation
-Interest_5: Semiconductor Industry (VLSI – Beginner)
+Interest_1: Embedded Systems & Firmware Development
+Interest_2: Communication Systems
+Interest_3: Robotics & Automation
+Interest_4: PCB Design & Hardware Debugging
+Interest_5: Embedded Linux (Beginner)
 
 [SECTION: PROJECTS]
-Project_1_Title: Smart Attendance System using Face Recognition
-Project_1_Desc: Built a real-time attendance system using Python + OpenCV. Integrated camera module and database logging. Reduced proxy attendance by automating verification.
-Project_1_Tech: Python, OpenCV, Haar Cascades
+Project_1_Title: Automatic Street Light Control System
+Project_1_Desc: Designed an energy-efficient street lighting system using LDR sensors. Lights automatically adjust intensity based on ambient lighting. Reduced power consumption through automation.
+Project_1_Tech: Arduino, LDR, Relays, Embedded C
 
-Project_2_Title: IoT-Based Smart Energy Monitoring System
-Project_2_Desc: Designed a system to monitor real-time power usage. ESP32 uploads data to cloud dashboard. Alerts generated for abnormal consumption.
-Project_2_Tech: ESP32, Sensors, MQTT, ThingSpeak
+Project_2_Title: Wireless Weather Monitoring System
+Project_2_Desc: Developed a system to monitor temperature, humidity, and air quality. Sensor data transmitted wirelessly to a monitoring interface. Useful for small-scale environmental monitoring applications.
+Project_2_Tech: ESP32, DHT11, Gas Sensor, Wi-Fi
 
-Project_3_Title: Obstacle Detection System for Blind Assistance
-Project_3_Desc: Used ultrasonic sensors to detect obstacles. Audio alerts via buzzer and vibration motor. Low-cost assistive solution.
-Project_3_Tech: Arduino, Ultrasonic Sensor, Embedded C
+Project_3_Title: Line Following Robot with Obstacle Avoidance
+Project_3_Desc: Built an autonomous robot capable of following a predefined path. Integrated obstacle detection for collision avoidance. Improved navigation logic through sensor fusion.
+Project_3_Tech: Arduino, IR Sensors, Ultrasonic Sensor, Motor Driver
 
 [SECTION: EXPERIENCE]
-Internship_1_Role: Embedded Systems Intern
-Internship_1_Company: TechNova Labs
-Internship_1_Duration: May 2025 – July 2025
-Internship_1_Tasks: Worked on Arduino and ESP32-based prototypes, Assisted in sensor calibration and testing, Debugged hardware-software integration issues, Documented project workflows
+Internship_1_Role: Electronics Intern
+Internship_1_Company: CoreTech Solutions
+Internship_1_Duration: June 2025 – August 2025
+Internship_1_Tasks: Assisted in testing and validation of electronic circuits, Worked with microcontroller-based demo boards, Performed debugging of hardware connections and firmware logic, Helped prepare technical documentation and test reports
 
 [SECTION: CERTIFICATIONS]
-Cert_1: Embedded Systems with Arduino – Coursera
-Cert_2: Introduction to IoT – NPTEL
-Cert_3: Python for Engineers – Udemy
-Cert_4: MATLAB Onramp – MathWorks
+Cert_1: Embedded Systems Essentials – Coursera
+Cert_2: Digital Circuits – NPTEL
+Cert_3: Python Basics for Engineers – Udemy
+Cert_4: MATLAB Fundamentals – MathWorks
 
 [SECTION: EXTRACURRICULAR]
-Club_1: Member, SRM Robotics Club
-Activity_1: Volunteered in Tech Fest hardware team
-Activity_2: Built personal lab setup at home for electronics practice
+Club_1: Active member, SRM Electronics Club
+Activity_1: Participated in inter-college robotics competitions
+Activity_2: Assisted in lab maintenance and student workshops
+Activity_3: Regularly practice circuit design and testing at home
 
 --------------------------------------------------------------------------------
 End of File

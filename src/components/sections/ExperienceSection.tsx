@@ -19,18 +19,18 @@ import { GlassmorphismCard } from "@/components/ui/GlassmorphismCard";
 // Your internships and work experience - EDIT THESE VALUES
 const experiences = [
     {
-        title: "Embedded Systems Intern",
-        institution: "TechNova Labs",
+        title: "Electronics Intern",
+        institution: "CoreTech Solutions",
         location: "Chennai",
-        department: "R&D Department",
-        period: "May 2025 – July 2025",
+        department: "Engineering Department",
+        period: "June 2025 – August 2025",
         current: false,
         type: "internship",
         highlights: [
-            "Worked on Arduino and ESP32-based prototypes",
-            "Assisted in sensor calibration and testing",
-            "Debugged hardware-software integration issues",
-            "Documented project workflows and technical specs",
+            "Assisted in testing and validation of electronic circuits",
+            "Worked with microcontroller-based demo boards",
+            "Performed debugging of hardware connections and firmware logic",
+            "Helped prepare technical documentation and test reports",
         ],
     },
 ];
@@ -39,15 +39,15 @@ const experiences = [
 const activities = [
     {
         icon: Users,
-        title: "SRM Robotics Club",
+        title: "SRM Electronics Club",
         role: "Active Member",
-        description: "Participating in robotics projects and competitions",
+        description: "Participating in electronics projects and lab maintenance",
     },
     {
         icon: Trophy,
-        title: "Tech Fest Volunteer",
-        role: "Hardware Team",
-        description: "Helped organize and manage technical events",
+        title: "Robotics Competitions",
+        role: "Participant",
+        description: "Participated in inter-college robotics competitions",
     },
 ];
 
@@ -188,8 +188,7 @@ export function ExperienceSection() {
                             🎯 Career Objective
                         </h4>
                         <p className="text-foreground-muted">
-                            To secure an internship or entry-level role where I can apply my ECE fundamentals and
-                            embedded systems knowledge to develop reliable and scalable engineering solutions.
+                            To obtain an internship or entry-level position in electronics or embedded systems where I can apply my ECE fundamentals, gain hands-on industry exposure, and contribute to reliable engineering solutions.
                         </p>
                     </GlassmorphismCard>
                 </motion.div>

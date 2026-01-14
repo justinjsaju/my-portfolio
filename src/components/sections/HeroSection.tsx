@@ -18,26 +18,26 @@ import { MagneticButton } from "@/components/ui/MagneticButton";
 
 // Your basic info - EDIT THESE VALUES
 const profileData = {
-    name: "Aarav Krishnan",
+    name: "Justin Saju",
     tagline: "3rd Year B.Tech | ECE @ SRMIST",
     degree: "B.Tech – Electronics & Communication Engineering",
-    specializations: ["Embedded Systems", "IoT", "Edge AI"],
+    specializations: ["Embedded Systems", "Signal Processing", "PCB Design"],
     bio: {
         highlight1: "Embedded Systems",
-        highlight2: "IoT Development",
-        highlight3: "Edge AI",
-        highlight4: "Sensor-based Systems",
+        highlight2: "Signal Processing",
+        highlight3: "PCB Design",
+        highlight4: "Real-time Applications",
     },
     stats: [
         { icon: Code, label: "3+ Projects", color: "text-accent-amber" },
-        { icon: Cpu, label: "IoT Enthusiast", color: "text-accent-teal" },
-        { icon: Zap, label: "Tech Club Member", color: "text-accent-gold" },
+        { icon: Cpu, label: "Hardware Enthusiast", color: "text-accent-teal" },
+        { icon: Zap, label: "Electronics Club Member", color: "text-accent-gold" },
     ],
     contact: {
-        email: "aarav.krishnan.ece@gmail.com",
-        github: "github.com/aarav-krishnan",
-        linkedin: "linkedin.com/in/aarav-krishnan",
-        portfolio: "aaravkrishnan.tech",
+        email: "justin.saju.ece@gmail.com",
+        github: "github.com/justin-saju",
+        linkedin: "linkedin.com/in/justin-saju",
+        portfolio: "justinsaju.tech",
     },
 };
 

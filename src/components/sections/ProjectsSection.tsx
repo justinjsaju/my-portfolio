@@ -20,39 +20,39 @@ import { useState } from "react";
 // Your projects - EDIT THESE VALUES
 const projects = [
     {
-        title: "Smart Attendance System using Face Recognition",
-        description: "Built a real-time attendance system that uses facial recognition to automatically mark attendance. Integrated camera module with database logging to reduce proxy attendance.",
-        techStack: ["Python", "OpenCV", "Haar Cascades", "SQLite"],
+        title: "Automatic Street Light Control System",
+        description: "Designed an energy-efficient street lighting system using LDR sensors. Lights automatically adjust intensity based on ambient lighting, reducing power consumption through automation.",
+        techStack: ["Arduino", "LDR", "Relays", "Embedded C"],
         highlights: [
-            "Real-time face detection and recognition",
-            "Automated attendance logging to database",
-            "Reduced proxy attendance issues",
+            "Automatic intensity adjustment based on ambient light",
+            "Energy-efficient automation",
+            "Reduced power consumption",
         ],
-        category: "Computer Vision",
+        category: "Embedded Systems",
         featured: true,
     },
     {
-        title: "IoT-Based Smart Energy Monitoring System",
-        description: "Designed a system to monitor real-time power usage in homes. ESP32 uploads data to a cloud dashboard and generates alerts for abnormal consumption patterns.",
-        techStack: ["ESP32", "Current Sensors", "MQTT", "ThingSpeak"],
+        title: "Wireless Weather Monitoring System",
+        description: "Developed a system to monitor temperature, humidity, and air quality. Sensor data transmitted wirelessly to a monitoring interface for small-scale environmental monitoring applications.",
+        techStack: ["ESP32", "DHT11", "Gas Sensor", "Wi-Fi"],
         highlights: [
-            "Real-time power consumption tracking",
-            "Cloud-based dashboard visualization",
-            "Abnormal usage alerts via notifications",
+            "Real-time environmental data monitoring",
+            "Wireless data transmission",
+            "Multi-sensor integration",
         ],
         category: "IoT",
         featured: true,
     },
     {
-        title: "Obstacle Detection System for Blind Assistance",
-        description: "Created a low-cost assistive device using ultrasonic sensors to detect obstacles and provide audio/haptic feedback to visually impaired users.",
-        techStack: ["Arduino", "Ultrasonic Sensor", "Buzzer", "Embedded C"],
+        title: "Line Following Robot with Obstacle Avoidance",
+        description: "Built an autonomous robot capable of following a predefined path with integrated obstacle detection for collision avoidance. Improved navigation logic through sensor fusion.",
+        techStack: ["Arduino", "IR Sensors", "Ultrasonic Sensor", "Motor Driver"],
         highlights: [
-            "180° obstacle detection range",
-            "Audio alerts via buzzer",
-            "Vibration motor for haptic feedback",
+            "Autonomous path following",
+            "Obstacle detection and avoidance",
+            "Sensor fusion for improved navigation",
         ],
-        category: "Embedded Systems",
+        category: "Robotics",
         featured: true,
     },
 ];
@@ -190,7 +190,7 @@ export function ProjectsSection() {
                     className="text-center mt-12"
                 >
                     <a
-                        href="https://github.com/aarav-krishnan"
+                        href="https://github.com/justin-saju"
                         target="_blank"
                         rel="noopener noreferrer"
                         className="inline-flex items-center gap-2 px-6 py-3 rounded-full bg-white/80 shadow-sm border border-glass-border text-foreground-muted hover:text-accent-amber hover:border-accent-amber/50 transition-all"

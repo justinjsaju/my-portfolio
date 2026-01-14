@@ -21,26 +21,26 @@ const contactInfo = [
     {
         icon: Mail,
         label: "Email",
-        value: "aarav.krishnan.ece@gmail.com",
-        href: "mailto:aarav.krishnan.ece@gmail.com",
+        value: "justin.saju.ece@gmail.com",
+        href: "mailto:justin.saju.ece@gmail.com",
     },
     {
         icon: Github,
         label: "GitHub",
-        value: "github.com/aarav-krishnan",
-        href: "https://github.com/aarav-krishnan",
+        value: "github.com/justin-saju",
+        href: "https://github.com/justin-saju",
     },
     {
         icon: Linkedin,
         label: "LinkedIn",
-        value: "linkedin.com/in/aarav-krishnan",
-        href: "https://linkedin.com/in/aarav-krishnan",
+        value: "linkedin.com/in/justin-saju",
+        href: "https://linkedin.com/in/justin-saju",
     },
     {
         icon: Globe,
         label: "Portfolio",
-        value: "aaravkrishnan.tech",
-        href: "https://aaravkrishnan.tech",
+        value: "justinsaju.tech",
+        href: "https://justinsaju.tech",
     },
 ];
 
@@ -117,7 +117,7 @@ export function ContactSection() {
                             </div>
 
                             <div className="mt-8 pt-6 border-t border-glass-border">
-                                <MagneticButton href="mailto:aarav.krishnan.ece@gmail.com" variant="primary" size="lg" className="w-full">
+                                <MagneticButton href="mailto:justin.saju.ece@gmail.com" variant="primary" size="lg" className="w-full">
                                     <Mail className="w-5 h-5" />
                                     Send Email
                                 </MagneticButton>
@@ -187,7 +187,7 @@ export function ContactSection() {
                     className="text-center mt-16 pt-8 border-t border-glass-border"
                 >
                     <p className="text-foreground-dim text-sm">
-                        © {new Date().getFullYear()} Aarav Krishnan. Built with ❤️ and Next.js
+                        © {new Date().getFullYear()} Justin Saju. Built with ❤️ and Next.js
                     </p>
                 </motion.div>
             </div>
