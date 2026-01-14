@@ -1,0 +1,151 @@
+@import "tailwindcss";
+
+/*
+ * ============================================================================
+ * 🎨 DESIGN SYSTEM - CSS CUSTOM PROPERTIES
+ * ============================================================================
+ * This defines the color palette and design tokens for the portfolio.
+ * You can customize colors here to match your personal brand.
+ * ============================================================================
+ */
+
+@theme {
+  /* Primary Colors - Warm Academic Palette */
+  --color-background: #faf9f7;
+  --color-foreground: #1a1a2e;
+  --color-foreground-muted: #4a4a5a;
+  --color-foreground-dim: #8a8a9a;
+
+  /* Accent Colors */
+  --color-accent-amber: #d97706;
+  --color-accent-gold: #b45309;
+  --color-accent-teal: #0d9488;
+  --color-accent-rose: #e11d48;
+  --color-accent-green: #059669;
+
+  /* Neutral Colors */
+  --color-midnight: #1a1a2e;
+  --color-midnight-light: #2d2d44;
+  --color-warm-stone: #d4c4b0;
+
+  /* Glass Effect */
+  --color-glass-border: rgba(0, 0, 0, 0.08);
+}
+
+/* Base Styles */
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: var(--color-background);
+  color: var(--color-foreground);
+  font-family: var(--font-geist-sans), system-ui, sans-serif;
+  line-height: 1.6;
+}
+
+/* Typography Scale */
+.heading-xl {
+  font-size: clamp(2.5rem, 8vw, 4.5rem);
+  font-weight: 700;
+  line-height: 1.1;
+  letter-spacing: -0.02em;
+}
+
+.heading-lg {
+  font-size: clamp(2rem, 5vw, 3rem);
+  font-weight: 700;
+  line-height: 1.2;
+  letter-spacing: -0.01em;
+}
+
+.heading-md {
+  font-size: clamp(1.5rem, 3vw, 2rem);
+  font-weight: 600;
+  line-height: 1.3;
+}
+
+.heading-sm {
+  font-size: clamp(1.125rem, 2vw, 1.375rem);
+  font-weight: 600;
+  line-height: 1.4;
+}
+
+.body-lg {
+  font-size: 1.125rem;
+  line-height: 1.7;
+}
+
+.body-md {
+  font-size: 1rem;
+  line-height: 1.6;
+}
+
+/* Gradient Text */
+.text-gradient {
+  background: linear-gradient(135deg, #d97706 0%, #b45309 50%, #92400e 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+/* Glass Effect */
+.glass {
+  background: rgba(255, 255, 255, 0.85);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid var(--color-glass-border);
+}
+
+/* Background Patterns */
+.bg-grid {
+  background-image: 
+    linear-gradient(rgba(0, 0, 0, 0.03) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(0, 0, 0, 0.03) 1px, transparent 1px);
+  background-size: 40px 40px;
+}
+
+.bg-dots {
+  background-image: radial-gradient(rgba(0, 0, 0, 0.08) 1px, transparent 1px);
+  background-size: 20px 20px;
+}
+
+/* Selection */
+::selection {
+  background-color: rgba(217, 119, 6, 0.2);
+  color: var(--color-foreground);
+}
+
+/* Scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(0, 0, 0, 0.25);
+}
+
+/* Focus Styles */
+:focus-visible {
+  outline: 2px solid var(--color-accent-amber);
+  outline-offset: 2px;
+}
+
+/* Smooth transitions for interactive elements */
+a, button {
+  transition: all 0.2s ease;
+}

@@ -1,0 +1,25 @@
+[INSTRUCTION]
+I have filled out `my_details.txt` with my personal information. Please perform the following automated setup sequence. Do not stop for confirmation between steps.
+
+STEP 1: UPDATE CONTENT
+- Read `my_details.txt` carefully.
+- Update `src/components/sections/HeroSection.tsx` with my Name, Tagline, and Bio.
+- Update `src/components/sections/AboutSection.tsx` with my Education and Skills.
+- Update `src/components/sections/ProjectsSection.tsx` with my Projects.
+- Update `src/components/sections/ExperienceSection.tsx` with my Internships.
+- Update `src/components/sections/CertificationsSection.tsx` with my Certifications.
+- Update `src/components/sections/ContactSection.tsx` and `Navbar.tsx` with my Links/Initials.
+
+STEP 2: INSTALL DEPENDENCIES
+- Run `npm install` to download all necessary packages.
+
+STEP 3: SETUP GIT
+- Run `git init` to initialize the repository.
+- Run `git add .` to stage all files.
+- Run `git commit -m "Initial portfolio setup"` to save the first version.
+
+STEP 4: VERIFY BUILD
+- Run `npm run build` to ensure the website has no errors.
+
+STEP 5: COMPLETION
+- If the build succeeds, tell me: "Setup Complete! Run 'npm run dev' to see your website."
