@@ -24,13 +24,13 @@ const geistMono = Geist_Mono({
  * ============================================================================
  */
 export const metadata: Metadata = {
-  title: "Aarav Krishnan | B.Tech ECE Student, SRMIST",
-  description: "Portfolio of Aarav Krishnan - 3rd Year B.Tech Electronics and Communication Engineering student at SRM Institute of Science & Technology. Passionate about Embedded Systems, IoT, and Edge AI.",
-  keywords: ["Aarav Krishnan", "SRMIST", "ECE Student", "Embedded Systems", "IoT", "Arduino", "ESP32", "Electronics Engineering"],
-  authors: [{ name: "Aarav Krishnan" }],
+  title: "Justin Saju | B.Tech ECE Student, SRMIST",
+  description: "Portfolio of Justin Saju - 3rd Year B.Tech Electronics and Communication Engineering student at SRM Institute of Science & Technology. Passionate about Embedded Systems, Signal Processing, and PCB Design.",
+  keywords: ["Justin Saju", "SRMIST", "ECE Student", "Embedded Systems", "Signal Processing", "Arduino", "ESP32", "Electronics Engineering"],
+  authors: [{ name: "Justin Saju" }],
   openGraph: {
-    title: "Aarav Krishnan | B.Tech ECE Student, SRMIST",
-    description: "Student portfolio showcasing projects in Embedded Systems, IoT, and Edge AI",
+    title: "Justin Saju | B.Tech ECE Student, SRMIST",
+    description: "Student portfolio showcasing projects in Embedded Systems, Robotics, and IoT",
     type: "website",
   },
 };
